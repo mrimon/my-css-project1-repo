@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family:sans-serif;
+ 
+}
+body {
+    color: #3B3A3B;
+    
+}
+
+/* header section styling starts */
+.header, .minim, .gallary-slider {
+    background : #EFEFEF;
+    height: 550px;
+    margin: 30px;
+}
+
+/* nav starts */
+.nav {
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    
+}
+.nav ul {
+    list-style: none;
+    padding-top: 20px;    
+  
+}
+.nav ul li{
+    display: inline;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #3B3A3B;
+    padding: 10px 20px;
+    margin: 0 2px; 
+    font-weight: 600;
+}
+.nav ul li a:hover {
+    color: #EFEFEF;
+    background: #3B3A3B;
+    border: 2px solid #3B3A3B;
+    border-radius: 5px ;
+}
+/* nav styling ends  */
+
+/* content starts  */
+.content, .minim-content {
+    display: grid ;
+    grid-template-columns: 45% 55%;
+    margin: 0 50px;
+}
+.left-content, .minim-left {
+    margin-top: 100px;   
+
+}
+h1 {
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+span {
+    color: #222222;
+    font-weight: bold;
+}
+p {
+    line-height: 2em;
+    font-style: italic;
+}
+.right-content, .minim-right {
+    text-align: right;
+}
+.right-content img {
+    width: 600px;
+    height: 500px;
+}
+.clear {
+    clear: both;
+}
+/* content ends  */
+
+/* header section styling starts */
+
+/* about-sec starts */
+.about {
+    background : #EFEFEF;
+    height: 650px;
+    margin: 30px;
+}
+.about-sec {
+    display: grid ;
+    grid-template-columns: 55% 45%;
+    margin: 0 50px;  
+    padding: 100px 0;
+}
+.about-left {
+}
+.about-left img {
+    width: 600px;
+    height: 500px;
+    
+}
+.about-right {
+    align-items: center;
+}
+
+.about-right ul {
+   list-style:none; 
+   margin-top: 50px;
+}
+.about-right ul li {
+    display: inline;
+}
+.about-right ul li a {
+    text-decoration: none;
+    padding: 8px 5px;
+    color: #FFF;
+    background: black;
+    opacity: 0.5;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+.about-right ul li a:hover {
+    opacity: 1;
+}
+/* about-sec ends */
+
+/* gallary starts */
+.gallary {
+    margin: 30px 30px; 
+    position: relative;
+    
+}
+.gallary-img {
+    height: 650px;
+    width: 100%;
+    background-image: url('images/manCam2.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.slider-style {
+    font-size: 50px;
+    padding: 8px 15px;
+    color: #222222;
+    background: #fff;
+    display: inline;
+    font-weight: normal;
+}
+.slider-style:hover {
+    transform: scale(1.1);
+}
+.slider1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+.slider2 {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+}
+/* gallary ends */
+
+
+
+/* minim section starts */
+.minim-content {
+    padding-top: 100px;
+}
+
+.minim-right {
+    
+}
+.minim-right img {
+    width: 550px;
+    height: 400px;
+    box-shadow: 2px 2px 5px 5px gray;
+    
+}
+
+/* minim section ends */
+
+/* gallary slider starts */
+.gallary-slider {
+    position: relative;
+    background : #EFEFEF;
+    height: 550px;
+    margin: 30px;
+}
+.slider {
+    display: grid ;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 100px 0;
+}
+.gallary-slider .slider img {
+    width: 350px;
+    height: 300px;
+}
+.slider .transform {
+    transform: scale(1.5);
+    margin-left: 70px;
+}
+.slider-left {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+.slider-right {
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+}
+
+/* gallary slider ends */
